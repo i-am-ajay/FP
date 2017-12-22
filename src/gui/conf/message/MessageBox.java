@@ -1,5 +1,7 @@
 package gui.conf.message;
 
+import java.net.URL;
+
 import gui.conf.ProjectLables;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -18,11 +20,14 @@ public abstract class MessageBox {
     protected Stage stage;
     public void messageBox(String msg){
         label = ProjectLables.createLabel(msg);
+        
+        ClassLoader loader = Thread.currentThread().getContextClassLoader();
+        URL path = loader.getResource("b3.jpg");
 
         box = new VBox(10);
         box.getChildren().add(label);
         box.setAlignment(Pos.CENTER);
-        String path = "file:///G:/projects/meenakshi%20ma\\'am/files/images/b3.jpg";
+       // String path = "file:///G:/projects/meenakshi%20ma\\'am/files/images/b3.jpg";
         box.setStyle("-fx-background-color: lightblue;-fx-background-image: url(" + path + ")");
         box.setPadding(new Insets(10));
         box.setMaxWidth(400);

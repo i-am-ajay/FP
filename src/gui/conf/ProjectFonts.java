@@ -26,4 +26,7 @@ public class ProjectFonts {
     public static Font msgFont(){
     	return Font.font("Calibri", 12);
     }
+    public static Font tooltipFont(){
+    	return Font.font("Cambria",10);
+    }
 }

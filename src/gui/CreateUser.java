@@ -20,6 +20,7 @@ public class CreateUser {
     static StoreNewUserInfo userInfo;
     static TextField usernameField;
     static PasswordField passwordField;
+    static PasswordField rePasswordField;
     static TextField masterField;
     static ToggleButton createUserToggleButton;
     static ToggleButton createAdminToggleButton;
@@ -38,6 +39,11 @@ public class CreateUser {
         passwordField = new PasswordField();
         passwordField.setPromptText("Enter password");
         password.setLabelFor(passwordField);
+        
+        Label repeatPassword = ProjectLables.labelForFields("Repeat Pass");
+        rePasswordField = new PasswordField();
+        rePasswordField.setPromptText("Re-Enter password");
+        password.setLabelFor(rePasswordField);
 
         Label email = ProjectLables.labelForFields("Email");
         emailField = new TextField();
@@ -50,9 +56,9 @@ public class CreateUser {
 
         TilePane fieldsPane = new TilePane();
         fieldsPane.setPrefColumns(3);
-        fieldsPane.getChildren().addAll(userName, usernameField, password, passwordField, email, emailField, masterKey, masterField);
+        fieldsPane.getChildren().addAll(userName, usernameField, password, passwordField,repeatPassword,rePasswordField, email, emailField, masterKey, masterField);
         fieldsPane.setHgap(10);
-        fieldsPane.setVgap(10);
+        fieldsPane.setVgap(3);
 
         ToggleGroup group = new ToggleGroup();
 

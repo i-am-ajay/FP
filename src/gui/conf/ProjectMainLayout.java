@@ -1,5 +1,9 @@
 package gui.conf;
 
+import java.net.URL;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
 import javafx.geometry.Insets;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.VBox;
@@ -18,8 +22,10 @@ public class ProjectMainLayout {
         vBox.setEffect(ProjectEffects.dropShadow(Color.CADETBLUE));
         pane.setTop(vBox);
         pane.setPadding(new Insets(0, 10, 0, 0));
-        String path = "file:///G:/projects/meenakshi%20ma\\'am/files/images/b3.jpg";
-        pane.setStyle("-fx-background-color: lightblue;-fx-background-image: url("+path+")");
+        
+        ClassLoader loader = Thread.currentThread().getContextClassLoader();
+        URL url = loader.getResource("b3.jpg");
+        pane.setStyle("-fx-background-color: lightblue;-fx-background-image: url("+url+")");
         return pane;
     }
 

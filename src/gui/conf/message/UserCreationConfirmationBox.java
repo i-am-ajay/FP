@@ -8,6 +8,8 @@ import gui.conf.ProjectLables;
 import gui.conf.ProjectMainLayout;
 import gui.conf.message.ConfirmationBox;
 import gui.conf.message.InfoMessage;
+import javafx.scene.control.TextField;
+import javafx.scene.layout.VBox;
 import keys.AuthKey;
 
 import java.sql.SQLException;
@@ -16,6 +18,7 @@ import java.sql.SQLException;
  * Created by ajay on 6/6/2016.
  */
 public class UserCreationConfirmationBox extends ConfirmationBox {
+	VBox mainScreen;
     @Override
     public void messageBox(String user){
         super.messageBox(user);
@@ -27,7 +30,7 @@ public class UserCreationConfirmationBox extends ConfirmationBox {
             try {
                 SaveUser newuser = new SaveUser();
                 StoreNewUserInfo userInfo = new StoreNewUserInfo();
-                System.out.println("VAlue of flag is"+flag);
+                System.out.println("Value of flag is"+flag);
                 flag = newuser.insertUserInTable(CreateUser.getUserInfo().getUserName(), CreateUser.getUserInfo().getPassword(), CreateUser.getUserInfo().getEmail(), masterKey);
             } catch (SQLException e1) {
                 e1.printStackTrace();

@@ -1,5 +1,6 @@
 package AddEntriesToDB;
 
+import java.sql.Connection;
 import java.util.prefs.BackingStoreException;
 import java.util.prefs.Preferences;
 
@@ -9,7 +10,7 @@ import java.util.prefs.Preferences;
 public class CreateDBPref {
     Preferences pref;
     public void createDBPrefrences(){
-        pref = Preferences.userNodeForPackage(Math.class);
+        pref = Preferences.userNodeForPackage(Connection.class);
         //System.out.println(pref.absolutePath());
         pref.put("url","jdbc:mysql://localhost:3306");
         pref.put("username","root");

@@ -5,6 +5,7 @@ import AddEntriesToDB.GetRuleFromDB;
 import email.EmailSender;
 import globals.SenderEmailConf;
 import gui.conf.ProjectControls;
+import gui.conf.ProjectFonts;
 import gui.conf.ProjectLables;
 import gui.conf.ProjectMainLayout;
 import gui.conf.SearchRules;
@@ -16,9 +17,12 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
+import javafx.scene.control.Tooltip;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
+import javafx.scene.text.Font;
 
+import java.net.URL;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -73,12 +77,23 @@ public class UserScreen {
                 keyField.requestFocus();
             }
         });
+        
+        ClassLoader loader = Thread.currentThread().getContextClassLoader();
+        URL url = loader.getResource("b3.jpg");
         getRules.setMaxWidth(150);
         getRules.setPrefWidth(150);
         //getRules.setWrapText(true);
         Button requestKey = ProjectControls.createButton("Request Key");
         requestKey.setMaxWidth(150);
         requestKey.setPrefWidth(150);
+        Tooltip tooltip = new Tooltip();
+        tooltip.setText("Enter Master Key to request your keys.");
+        tooltip.setWrapText(true);
+        Font tooltipFont = ProjectFonts.tooltipFont();
+        tooltip.setFont(tooltipFont);
+        tooltip.setStyle("-fx-background-image:url("+url+"); -fx-color:black;");
+        requestKey.setTooltip(tooltip);
+        
         requestKey.setOnAction(
                 e -> {
                     boolean flag = getKeyUsingMasterKey(userName,keyField.getText());
