@@ -1,0 +1,562 @@
+'month=may' 'previous=0' 'poutcome=unknown' 'y=no'10632
+'education=secondary' 'marital=married' 'pdays=-1' 'poutcome=unknown'11313
+'education=secondary' 'housing=yes' 'default=no'13794
+'month=may' 'previous=0' 'y=no' 'default=no'10428
+'housing=no' 'previous=0' 'pdays=-1' 'loan=no' 'default=no'14158
+'marital=married' 'y=no' 'default=no'24031
+'y=no'39922
+'housing=yes' 'previous=0' 'poutcome=unknown' 'loan=no'16471
+'marital=married' 'contact=cellular' 'previous=0' 'pdays=-1'12881
+'housing=yes' 'poutcome=unknown' 'loan=no'16471
+'education=secondary' 'previous=0'18948
+'housing=no' 'previous=0' 'poutcome=unknown' 'loan=no' 'y=no'12437
+'education=secondary' 'previous=0' 'pdays=-1' 'poutcome=unknown'18948
+'education=secondary' 'housing=yes' 'poutcome=unknown' 'default=no'10964
+'contact=cellular' 'previous=0' 'pdays=-1' 'poutcome=unknown'21729
+'housing=yes' 'previous=0' 'poutcome=unknown' 'y=no' 'default=no'18336
+'education=secondary' 'marital=married' 'loan=no'11054
+'education=secondary' 'previous=0' 'pdays=-1' 'loan=no' 'y=no'13938
+'marital=married' 'default=no'26766
+'housing=yes' 'pdays=-1' 'poutcome=unknown' 'y=no' 'default=no'18336
+'housing=no' 'contact=cellular' 'previous=0' 'default=no'11659
+'month=may' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'default=no'11041
+'contact=unknown' 'pdays=-1'12950
+'housing=no' 'contact=cellular' 'previous=0' 'poutcome=unknown' 'default=no'11659
+'housing=yes' 'poutcome=unknown' 'y=no' 'default=no'18337
+'education=secondary' 'marital=married' 'poutcome=unknown' 'y=no' 'default=no'10283
+'education=tertiary' 'previous=0' 'pdays=-1' 'default=no'10455
+'education=secondary' 'marital=married' 'previous=0' 'pdays=-1' 'poutcome=unknown'11313
+'housing=no' 'pdays=-1' 'y=no' 'default=no'14523
+'month=may' 'pdays=-1' 'poutcome=unknown' 'y=no'10632
+'contact=cellular' 'loan=no' 'y=no'20504
+'contact=cellular' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'loan=no' 'default=no'17717
+'marital=married' 'poutcome=unknown'22472
+'education=tertiary' 'pdays=-1' 'poutcome=unknown'10641
+'contact=cellular' 'pdays=-1' 'poutcome=unknown' 'loan=no' 'y=no' 'default=no'15398
+'housing=no' 'contact=cellular' 'loan=no' 'default=no'12396
+'marital=single' 'default=no'12551
+'education=secondary' 'contact=cellular' 'pdays=-1'10780
+'housing=yes' 'previous=0' 'poutcome=unknown' 'default=no'19596
+'month=may' 'housing=yes' 'loan=no'10224
+'education=secondary' 'previous=0' 'pdays=-1' 'loan=no' 'y=no' 'default=no'13692
+'housing=no' 'marital=married' 'previous=0' 'pdays=-1' 'poutcome=unknown'10156
+'education=secondary' 'previous=0' 'pdays=-1' 'y=no'17353
+'education=secondary' 'marital=married' 'previous=0' 'y=no'10506
+'education=secondary' 'previous=0' 'loan=no'15310
+'previous=0' 'pdays=-1' 'default=no'36196
+'previous=0' 'poutcome=unknown' 'y=no' 'default=no'32859
+'housing=yes' 'marital=married' 'poutcome=unknown' 'y=no' 'default=no'11440
+'marital=married' 'previous=0' 'pdays=-1'22469
+'contact=unknown' 'default=no'12731
+'poutcome=unknown' 'y=no' 'default=no'32862
+'marital=married' 'previous=0' 'poutcome=unknown' 'y=no' 'default=no'20355
+'previous=0' 'pdays=-1'36954
+'housing=no' 'poutcome=unknown' 'loan=no' 'y=no'12439
+'campaign=1' 'pdays=-1' 'poutcome=unknown' 'y=no'12006
+'housing=yes' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'y=no'18704
+'marital=single' 'previous=0'10209
+'contact=cellular' 'previous=0' 'pdays=-1' 'default=no'21286
+'marital=married' 'loan=no' 'y=no' 'default=no'19799
+'marital=married' 'contact=cellular' 'previous=0' 'poutcome=unknown' 'default=no'12634
+'education=secondary' 'contact=cellular' 'poutcome=unknown' 'default=no'10546
+'housing=yes' 'marital=married' 'previous=0' 'default=no'12088
+'contact=unknown'13020
+'contact=unknown' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'y=no' 'default=no'12157
+'contact=unknown' 'previous=0' 'poutcome=unknown' 'loan=no' 'default=no'10729
+'marital=married' 'poutcome=unknown' 'y=no' 'default=no'20357
+'housing=no' 'pdays=-1' 'loan=no' 'y=no'12437
+'housing=no' 'contact=cellular' 'previous=0' 'pdays=-1' 'poutcome=unknown'11917
+'education=secondary' 'marital=married' 'previous=0' 'pdays=-1' 'default=no'11081
+'marital=married' 'contact=cellular' 'previous=0' 'loan=no' 'default=no'10402
+'housing=no' 'marital=married' 'y=no'10147
+'marital=married' 'contact=cellular' 'poutcome=unknown'12884
+'campaign=1' 'pdays=-1' 'loan=no' 'default=no'11065
+'housing=yes' 'previous=0'19988
+'housing=no' 'contact=cellular' 'previous=0' 'pdays=-1'11917
+'contact=unknown' 'previous=0' 'loan=no' 'y=no' 'default=no'10292
+'education=tertiary' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'default=no'10455
+'campaign=1' 'contact=cellular'11414
+'education=tertiary' 'previous=0' 'poutcome=unknown'10641
+'housing=yes' 'marital=married' 'previous=0' 'pdays=-1' 'y=no'11657
+'housing=no' 'loan=no' 'default=no'16992
+'education=secondary' 'housing=yes' 'previous=0'11178
+'education=secondary' 'housing=yes' 'poutcome=unknown' 'y=no' 'default=no'10275
+'housing=no' 'contact=cellular' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'default=no'11659
+'contact=unknown' 'pdays=-1' 'loan=no' 'y=no'10481
+'education=secondary' 'contact=cellular' 'default=no'14413
+'marital=married' 'contact=cellular' 'pdays=-1' 'poutcome=unknown' 'loan=no'10555
+'contact=cellular' 'previous=0' 'loan=no'17979
+'education=secondary' 'contact=cellular' 'previous=0'10780
+'housing=yes' 'marital=married' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'default=no'12088
+'contact=cellular' 'poutcome=unknown' 'y=no' 'default=no'18708
+'housing=yes' 'contact=cellular' 'loan=no' 'y=no'10659
+'contact=unknown' 'previous=0'12950
+'housing=no' 'pdays=-1' 'poutcome=unknown' 'y=no'14866
+'contact=unknown' 'pdays=-1' 'loan=no'10931
+'education=secondary' 'y=no' 'default=no'20322
+'housing=yes' 'poutcome=unknown' 'y=no'18705
+'housing=yes' 'previous=0' 'pdays=-1' 'loan=no'16471
+'marital=married' 'poutcome=unknown' 'loan=no' 'y=no'17041
+'education=secondary' 'housing=yes' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'y=no'10474
+'housing=no' 'marital=married' 'previous=0' 'pdays=-1'10156
+'education=secondary' 'marital=married' 'pdays=-1' 'poutcome=unknown' 'y=no' 'default=no'10282
+'contact=unknown' 'pdays=-1' 'poutcome=unknown'12950
+'housing=no' 'contact=cellular' 'pdays=-1' 'poutcome=unknown' 'default=no'11659
+'month=may' 'pdays=-1' 'y=no' 'default=no'10428
+'contact=cellular' 'previous=0' 'pdays=-1' 'y=no'19115
+'education=secondary' 'marital=married' 'previous=0' 'poutcome=unknown' 'y=no' 'default=no'10282
+'education=secondary' 'contact=cellular'14688
+'contact=cellular' 'previous=0' 'loan=no' 'y=no'15639
+'education=secondary' 'previous=0' 'poutcome=unknown' 'loan=no'15310
+'marital=married' 'contact=cellular' 'pdays=-1' 'loan=no' 'default=no'10402
+'poutcome=unknown' 'y=no'33573
+'housing=no' 'contact=cellular' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'loan=no'10028
+'education=secondary' 'housing=yes' 'y=no' 'default=no'12775
+'marital=married' 'contact=cellular' 'previous=0' 'poutcome=unknown' 'y=no'11600
+'contact=unknown' 'previous=0' 'poutcome=unknown' 'loan=no' 'y=no'10481
+'education=secondary' 'previous=0' 'poutcome=unknown'18948
+'education=secondary' 'default=no'22744
+'housing=yes'25130
+'marital=married' 'contact=cellular' 'pdays=-1' 'poutcome=unknown' 'y=no' 'default=no'11366
+'contact=cellular'29285
+'contact=cellular' 'previous=0' 'poutcome=unknown' 'loan=no'17979
+'poutcome=unknown' 'loan=no'30836
+'education=secondary' 'pdays=-1' 'y=no' 'default=no'16959
+'education=secondary' 'contact=cellular' 'pdays=-1' 'default=no'10543
+'housing=no' 'marital=married' 'loan=no' 'default=no'10086
+'housing=yes' 'marital=married' 'poutcome=unknown'12314
+'marital=married' 'contact=cellular' 'previous=0' 'pdays=-1' 'loan=no' 'default=no'10402
+'campaign=1' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'y=no'12006
+'education=secondary' 'contact=cellular' 'previous=0' 'poutcome=unknown'10780
+'marital=married' 'previous=0' 'default=no'22043
+'marital=married' 'contact=cellular' 'pdays=-1' 'poutcome=unknown' 'loan=no' 'default=no'10402
+'contact=unknown' 'previous=0' 'pdays=-1' 'default=no'12661
+'housing=no' 'contact=cellular' 'previous=0' 'pdays=-1' 'y=no'10171
+'housing=yes' 'previous=0' 'pdays=-1' 'default=no'19596
+'previous=0' 'y=no'33570
+'education=secondary' 'contact=cellular' 'previous=0' 'poutcome=unknown' 'default=no'10543
+'poutcome=unknown' 'loan=no' 'y=no' 'default=no'27371
+'marital=married' 'pdays=-1' 'default=no'22043
+'marital=married' 'contact=cellular' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'loan=no' 'default=no'10402
+'contact=cellular' 'pdays=-1'21729
+'contact=cellular' 'previous=0' 'loan=no' 'y=no' 'default=no'15398
+'contact=cellular' 'poutcome=unknown' 'y=no'19118
+'marital=married' 'contact=cellular' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'default=no'12634
+'contact=unknown' 'previous=0' 'poutcome=unknown' 'loan=no'10931
+'marital=married' 'previous=0' 'poutcome=unknown' 'default=no'22043
+'month=may' 'loan=no' 'y=no' 'default=no'10779
+'housing=no' 'contact=cellular' 'pdays=-1' 'default=no'11659
+'previous=0' 'pdays=-1' 'poutcome=unknown' 'loan=no' 'default=no'30356
+'campaign=1'17544
+'education=secondary' 'previous=0' 'pdays=-1' 'loan=no'15310
+'housing=yes' 'previous=0' 'y=no' 'default=no'18336
+'education=tertiary' 'y=no' 'default=no'11121
+'education=tertiary' 'loan=no' 'default=no'11392
+'housing=yes' 'marital=married' 'previous=0' 'y=no'11657
+'housing=no' 'contact=cellular' 'poutcome=unknown' 'y=no'10173
+'campaign=1' 'marital=married'10020
+'contact=cellular' 'loan=no'24485
+'marital=married' 'previous=0' 'pdays=-1' 'loan=no'18553
+'housing=no' 'previous=0' 'loan=no'14362
+'contact=cellular' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'loan=no' 'y=no'15639
+'housing=yes' 'pdays=-1' 'poutcome=unknown' 'loan=no'16471
+'month=may' 'pdays=-1' 'default=no'11041
+'education=secondary' 'loan=no' 'default=no'18608
+'contact=unknown' 'previous=0' 'poutcome=unknown' 'y=no'12432
+'campaign=1' 'previous=0' 'y=no' 'default=no'11763
+'contact=cellular' 'poutcome=unknown'21734
+'marital=married' 'previous=0'22469
+'campaign=1' 'pdays=-1' 'poutcome=unknown' 'y=no' 'default=no'11763
+'housing=yes' 'contact=cellular'14603
+'housing=no' 'contact=cellular' 'y=no'11799
+'housing=no' 'marital=married' 'pdays=-1' 'poutcome=unknown'10156
+'education=secondary' 'pdays=-1' 'default=no'18529
+'marital=married' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'loan=no'18553
+'previous=0' 'pdays=-1' 'poutcome=unknown' 'loan=no'30833
+'loan=no' 'default=no'37453
+'education=secondary' 'pdays=-1' 'loan=no' 'y=no' 'default=no'13692
+'month=may' 'poutcome=unknown' 'y=no' 'default=no'10428
+'education=secondary' 'marital=married' 'pdays=-1'11313
+'housing=no' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'loan=no' 'default=no'14158
+'housing=no' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'y=no' 'default=no'14523
+'marital=married' 'contact=cellular' 'pdays=-1' 'poutcome=unknown' 'y=no'11600
+'housing=no' 'contact=cellular' 'previous=0' 'pdays=-1' 'loan=no'10028
+'housing=yes' 'previous=0' 'loan=no' 'y=no' 'default=no'15121
+'contact=cellular' 'poutcome=unknown' 'loan=no' 'y=no' 'default=no'15400
+'housing=yes' 'marital=married' 'previous=0' 'y=no' 'default=no'11440
+'marital=married' 'contact=cellular' 'previous=0' 'poutcome=unknown' 'y=no' 'default=no'11366
+'housing=yes' 'pdays=-1' 'loan=no' 'y=no' 'default=no'15121
+'housing=yes' 'previous=0' 'poutcome=unknown' 'loan=no' 'y=no' 'default=no'15121
+'education=secondary' 'marital=married' 'previous=0' 'y=no' 'default=no'10282
+'education=secondary' 'contact=cellular' 'pdays=-1' 'poutcome=unknown'10780
+'campaign=1' 'pdays=-1' 'default=no'13265
+'campaign=2' 'pdays=-1'10229
+'month=may' 'housing=yes' 'y=no'11391
+'education=tertiary' 'poutcome=unknown'10643
+'housing=yes' 'marital=married' 'pdays=-1' 'poutcome=unknown'12313
+'housing=yes' 'previous=0' 'pdays=-1' 'y=no' 'default=no'18336
+'marital=married' 'contact=cellular' 'loan=no' 'y=no' 'default=no'11986
+'campaign=1' 'previous=0' 'y=no'12006
+'contact=unknown' 'pdays=-1' 'poutcome=unknown' 'default=no'12661
+'previous=0' 'loan=no' 'y=no'27812
+'campaign=1' 'previous=0' 'loan=no' 'default=no'11065
+'housing=yes' 'marital=married' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'y=no' 'default=no'11440
+'housing=yes' 'pdays=-1' 'poutcome=unknown' 'y=no'18704
+'education=secondary' 'pdays=-1' 'poutcome=unknown' 'y=no'17353
+'campaign=1' 'loan=no' 'y=no'12375
+'campaign=2'12505
+'contact=unknown' 'poutcome=unknown' 'y=no'12432
+'education=secondary' 'poutcome=unknown' 'y=no' 'default=no'16961
+'housing=no' 'contact=cellular' 'pdays=-1' 'poutcome=unknown' 'loan=no'10028
+'month=may'13766
+'housing=no' 'pdays=-1'16966
+'education=secondary' 'contact=cellular' 'y=no' 'default=no'12429
+'contact=unknown' 'previous=0' 'default=no'12661
+'previous=0' 'pdays=-1' 'poutcome=unknown' 'y=no' 'default=no'32859
+'housing=yes' 'loan=no'20763
+'contact=unknown' 'loan=no' 'y=no' 'default=no'10339
+'housing=yes' 'marital=married' 'loan=no' 'y=no'11506
+'marital=married' 'poutcome=unknown' 'y=no'20766
+'housing=yes' 'marital=married' 'pdays=-1' 'y=no' 'default=no'11440
+'housing=no' 'contact=cellular' 'pdays=-1' 'poutcome=unknown' 'y=no'10171
+'education=secondary' 'poutcome=unknown' 'loan=no' 'y=no'13939
+'previous=0' 'y=no' 'default=no'32859
+'campaign=1' 'pdays=-1' 'poutcome=unknown' 'default=no'13265
+'contact=cellular' 'y=no' 'default=no'24455
+'campaign=2' 'y=no' 'default=no'10908
+'previous=0'36954
+'education=secondary' 'contact=cellular' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'default=no'10543
+'housing=no' 'pdays=-1' 'default=no'16600
+'pdays=-1' 'poutcome=unknown' 'loan=no'30833
+'housing=yes' 'contact=cellular' 'y=no'13117
+'education=secondary' 'housing=yes' 'previous=0' 'pdays=-1'11178
+'education=secondary' 'poutcome=unknown' 'default=no'18532
+'marital=married' 'contact=cellular' 'previous=0' 'pdays=-1' 'loan=no'10555
+'contact=cellular' 'pdays=-1' 'poutcome=unknown' 'y=no'19115
+'contact=cellular' 'y=no'24916
+'pdays=-1' 'loan=no' 'y=no'27812
+'pdays=-1' 'poutcome=unknown' 'y=no'33570
+'marital=married' 'previous=0' 'pdays=-1' 'loan=no' 'y=no' 'default=no'16781
+'education=secondary' 'housing=yes' 'pdays=-1' 'poutcome=unknown' 'y=no'10474
+'education=secondary' 'marital=married' 'previous=0' 'poutcome=unknown'11313
+'education=secondary' 'marital=married' 'previous=0' 'poutcome=unknown' 'default=no'11081
+'education=secondary' 'loan=no'18899
+'campaign=2' 'previous=0' 'pdays=-1'10229
+'previous=0' 'pdays=-1' 'poutcome=unknown' 'y=no'33570
+'marital=married' 'previous=0' 'pdays=-1' 'poutcome=unknown'22469
+'marital=married' 'poutcome=unknown' 'loan=no' 'default=no'18285
+'contact=cellular' 'previous=0' 'pdays=-1' 'y=no' 'default=no'18705
+'contact=unknown' 'poutcome=unknown' 'loan=no'10931
+'contact=cellular' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'loan=no'17979
+'education=secondary' 'housing=yes' 'previous=0' 'poutcome=unknown' 'default=no'10963
+'housing=yes' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'loan=no' 'y=no' 'default=no'15121
+'housing=yes' 'previous=0' 'poutcome=unknown'19988
+'housing=yes' 'marital=married' 'previous=0' 'poutcome=unknown' 'y=no' 'default=no'11440
+'housing=yes' 'contact=cellular' 'loan=no' 'y=no' 'default=no'10522
+'contact=unknown' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'y=no'12432
+'month=may' 'y=no' 'default=no'12609
+'education=secondary' 'previous=0' 'pdays=-1' 'default=no'18529
+'marital=married' 'contact=cellular' 'previous=0' 'poutcome=unknown' 'loan=no' 'default=no'10402
+'month=may' 'pdays=-1' 'poutcome=unknown'11252
+'marital=married' 'pdays=-1' 'poutcome=unknown' 'loan=no' 'y=no'17039
+'education=secondary' 'marital=married' 'pdays=-1' 'y=no'10506
+'housing=yes' 'marital=married' 'pdays=-1' 'poutcome=unknown' 'y=no'11657
+'contact=cellular' 'previous=0' 'poutcome=unknown' 'loan=no' 'default=no'17717
+'housing=no' 'contact=cellular' 'poutcome=unknown' 'loan=no'10031
+'education=secondary' 'pdays=-1' 'poutcome=unknown'18948
+'campaign=1' 'poutcome=unknown' 'loan=no'11223
+'contact=unknown' 'poutcome=unknown' 'loan=no' 'default=no'10729
+'housing=yes' 'previous=0' 'default=no'19596
+'housing=no' 'loan=no'17204
+'previous=0' 'default=no'36196
+'housing=yes' 'contact=cellular' 'y=no' 'default=no'12908
+'housing=no' 'marital=married' 'poutcome=unknown'10158
+'month=may' 'previous=0' 'pdays=-1' 'default=no'11041
+'education=secondary' 'previous=0' 'y=no' 'default=no'16959
+'housing=yes' 'poutcome=unknown' 'loan=no' 'y=no' 'default=no'15121
+'education=secondary' 'poutcome=unknown' 'loan=no' 'default=no'15048
+'education=secondary' 'poutcome=unknown' 'loan=no' 'y=no' 'default=no'13693
+'contact=cellular' 'loan=no' 'y=no' 'default=no'20230
+'pdays=-1' 'poutcome=unknown' 'y=no' 'default=no'32859
+'marital=married' 'contact=cellular' 'pdays=-1'12881
+'campaign=1' 'poutcome=unknown' 'loan=no' 'default=no'11067
+'contact=cellular' 'pdays=-1' 'poutcome=unknown' 'loan=no'17979
+'contact=unknown' 'pdays=-1' 'loan=no' 'y=no' 'default=no'10292
+'contact=cellular' 'pdays=-1' 'loan=no'17979
+'education=secondary' 'pdays=-1' 'poutcome=unknown' 'loan=no' 'y=no' 'default=no'13692
+'marital=married' 'y=no'24459
+'education=secondary' 'housing=yes' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'y=no' 'default=no'10274
+'contact=unknown' 'loan=no'10988
+'education=secondary' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'y=no' 'default=no'16959
+'education=secondary' 'marital=married' 'pdays=-1' 'poutcome=unknown' 'y=no'10506
+'housing=no' 'marital=married' 'previous=0' 'poutcome=unknown'10156
+'month=may' 'housing=yes' 'default=no'11869
+'marital=married' 'contact=cellular' 'pdays=-1' 'default=no'12634
+'housing=yes' 'previous=0' 'y=no'18704
+'pdays=-1' 'poutcome=unknown' 'loan=no' 'y=no'27812
+'housing=no' 'previous=0' 'pdays=-1' 'y=no'14866
+'campaign=1' 'y=no' 'default=no'14715
+'previous=0' 'poutcome=unknown' 'loan=no' 'y=no' 'default=no'27369
+'previous=0' 'poutcome=unknown' 'y=no'33570
+'month=may' 'loan=no'11773
+'marital=single' 'y=no' 'default=no'10660
+'month=may' 'housing=yes' 'loan=no' 'default=no'10066
+'month=may' 'default=no'13526
+'education=secondary' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'loan=no' 'y=no'13938
+'campaign=2' 'poutcome=unknown' 'default=no'10038
+'housing=no' 'pdays=-1' 'poutcome=unknown' 'loan=no' 'default=no'14158
+'contact=unknown' 'pdays=-1' 'poutcome=unknown' 'y=no' 'default=no'12157
+'housing=no' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'loan=no'14362
+'marital=married' 'previous=0' 'pdays=-1' 'loan=no' 'y=no'17039
+'month=may' 'housing=yes' 'y=no' 'default=no'11190
+'campaign=2' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'default=no'10038
+'marital=married' 'previous=0' 'loan=no'18553
+'campaign=2' 'previous=0' 'pdays=-1' 'poutcome=unknown'10229
+'marital=married' 'previous=0' 'poutcome=unknown' 'y=no'20764
+'previous=0' 'pdays=-1' 'y=no' 'default=no'32859
+'campaign=1' 'previous=0' 'poutcome=unknown'13529
+'housing=no' 'pdays=-1' 'poutcome=unknown' 'loan=no' 'y=no'12437
+'housing=yes' 'marital=married' 'poutcome=unknown' 'y=no'11657
+'marital=married' 'pdays=-1' 'poutcome=unknown' 'loan=no'18553
+'month=may' 'previous=0' 'poutcome=unknown' 'default=no'11041
+'housing=no' 'pdays=-1' 'poutcome=unknown' 'default=no'16600
+'housing=yes' 'marital=married'15321
+'marital=married' 'pdays=-1' 'poutcome=unknown' 'loan=no' 'default=no'18283
+'housing=yes' 'pdays=-1' 'default=no'19596
+'campaign=1' 'pdays=-1' 'y=no' 'default=no'11763
+'housing=no' 'previous=0' 'pdays=-1' 'loan=no' 'y=no' 'default=no'12248
+'housing=no' 'marital=married' 'pdays=-1'10156
+'education=secondary' 'housing=yes' 'pdays=-1' 'poutcome=unknown'11178
+'education=secondary' 'previous=0' 'loan=no' 'y=no'13938
+'marital=single' 'loan=no'11127
+'education=secondary' 'housing=yes' 'poutcome=unknown'11179
+'education=tertiary' 'previous=0'10641
+'housing=yes' 'previous=0' 'loan=no' 'default=no'16198
+'housing=no' 'previous=0' 'loan=no' 'y=no' 'default=no'12248
+'education=secondary' 'previous=0' 'y=no'17353
+'previous=0' 'loan=no' 'default=no'30356
+'housing=no' 'contact=cellular' 'previous=0'11917
+'marital=married' 'pdays=-1' 'poutcome=unknown'22469
+'month=may' 'pdays=-1' 'poutcome=unknown' 'default=no'11041
+'contact=cellular' 'previous=0'21729
+'marital=single'12790
+'marital=married' 'contact=cellular' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'y=no'11600
+'contact=unknown' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'loan=no' 'y=no' 'default=no'10292
+'housing=no' 'contact=cellular' 'pdays=-1' 'y=no'10171
+'contact=cellular' 'loan=no' 'default=no'24187
+'y=no' 'default=no'39159
+'housing=no' 'previous=0' 'pdays=-1' 'y=no' 'default=no'14523
+'marital=married' 'contact=cellular' 'default=no'16900
+'contact=cellular' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'default=no'21286
+'previous=0' 'pdays=-1' 'poutcome=unknown' 'loan=no' 'y=no'27812
+'marital=married' 'pdays=-1' 'loan=no' 'y=no'17039
+'education=secondary' 'housing=yes' 'pdays=-1' 'poutcome=unknown' 'y=no' 'default=no'10274
+'marital=married' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'default=no'22043
+'education=secondary' 'marital=married' 'previous=0' 'pdays=-1'11313
+'housing=no' 'contact=cellular' 'previous=0' 'poutcome=unknown'11917
+'contact=unknown' 'previous=0' 'pdays=-1' 'poutcome=unknown'12950
+'month=may' 'loan=no' 'y=no'10957
+'education=secondary' 'marital=married' 'previous=0'11313
+'housing=yes' 'pdays=-1' 'loan=no'16471
+'campaign=2' 'default=no'12297
+'campaign=1' 'previous=0' 'pdays=-1' 'loan=no' 'default=no'11065
+'education=secondary' 'contact=cellular' 'y=no'12686
+'housing=yes' 'contact=cellular' 'loan=no' 'default=no'11791
+'previous=0' 'loan=no'30833
+'housing=no' 'previous=0' 'loan=no' 'y=no'12437
+'pdays=-1'36954
+'education=secondary' 'housing=yes' 'poutcome=unknown' 'y=no'10475
+'housing=no' 'previous=0' 'poutcome=unknown' 'loan=no' 'y=no' 'default=no'12248
+'marital=married' 'pdays=-1' 'poutcome=unknown' 'y=no'20764
+'contact=cellular' 'pdays=-1' 'poutcome=unknown' 'loan=no' 'y=no'15639
+'education=secondary' 'marital=married' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'y=no'10506
+'education=secondary' 'housing=yes' 'y=no'13001
+'education=secondary' 'contact=cellular' 'loan=no' 'y=no'10124
+'education=secondary' 'housing=yes' 'previous=0' 'y=no'10474
+'pdays=-1' 'poutcome=unknown' 'loan=no' 'y=no' 'default=no'27369
+'housing=no' 'y=no' 'default=no'16370
+'education=secondary' 'marital=married' 'y=no'12466
+'campaign=1' 'previous=0' 'default=no'13265
+'education=secondary' 'previous=0' 'poutcome=unknown' 'loan=no' 'y=no'13938
+'housing=no' 'previous=0'16966
+'housing=yes' 'previous=0' 'pdays=-1' 'y=no'18704
+'education=secondary' 'marital=married' 'previous=0' 'poutcome=unknown' 'y=no'10506
+'campaign=1' 'previous=0'13529
+'education=tertiary' 'y=no'11305
+'contact=unknown' 'y=no' 'default=no'12215
+'marital=married' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'y=no' 'default=no'20355
+'campaign=1' 'poutcome=unknown' 'default=no'13267
+'housing=no' 'poutcome=unknown'16969
+'marital=married' 'previous=0' 'pdays=-1' 'y=no'20764
+'housing=no' 'contact=cellular' 'previous=0' 'poutcome=unknown' 'y=no'10171
+'contact=cellular' 'pdays=-1' 'poutcome=unknown' 'default=no'21286
+'month=may' 'previous=0' 'pdays=-1'11252
+'month=may' 'previous=0' 'pdays=-1' 'y=no'10632
+'housing=yes' 'loan=no' 'y=no'19093
+'housing=no' 'marital=married'11893
+'campaign=2' 'previous=0' 'default=no'10038
+'campaign=1' 'poutcome=unknown' 'y=no' 'default=no'11764
+'poutcome=unknown'36959
+'contact=unknown' 'previous=0' 'poutcome=unknown' 'loan=no' 'y=no' 'default=no'10292
+'campaign=1' 'previous=0' 'poutcome=unknown' 'default=no'13265
+'housing=yes' 'marital=married' 'default=no'15078
+'campaign=1' 'previous=0' 'poutcome=unknown' 'y=no' 'default=no'11763
+'housing=no' 'contact=cellular' 'previous=0' 'y=no'10171
+'education=secondary' 'marital=married' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'y=no' 'default=no'10282
+'education=secondary' 'poutcome=unknown'18951
+'campaign=1' 'previous=0' 'pdays=-1' 'loan=no'11221
+'campaign=1' 'loan=no' 'y=no' 'default=no'12219
+'marital=married' 'pdays=-1' 'poutcome=unknown' 'default=no'22043
+'housing=no' 'contact=cellular' 'poutcome=unknown' 'default=no'11662
+'campaign=2' 'previous=0' 'poutcome=unknown'10229
+'housing=no' 'previous=0' 'y=no' 'default=no'14523
+'contact=unknown' 'pdays=-1' 'poutcome=unknown' 'loan=no' 'default=no'10729
+'marital=single' 'loan=no' 'default=no'10973
+'contact=unknown' 'previous=0' 'pdays=-1' 'loan=no' 'y=no'10481
+'previous=0' 'pdays=-1' 'poutcome=unknown'36954
+'education=secondary' 'previous=0' 'default=no'18529
+'education=secondary' 'housing=yes' 'loan=no' 'y=no'10500
+'pdays=-1' 'y=no' 'default=no'32859
+'housing=no' 'poutcome=unknown' 'y=no'14868
+'previous=0' 'poutcome=unknown' 'default=no'36196
+'marital=married' 'pdays=-1' 'loan=no' 'y=no' 'default=no'16781
+'education=secondary' 'loan=no' 'y=no'16743
+'housing=yes' 'marital=married' 'pdays=-1' 'default=no'12088
+'housing=yes' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'default=no'19596
+'contact=cellular' 'pdays=-1' 'loan=no' 'y=no' 'default=no'15398
+'campaign=1' 'y=no'14983
+'education=secondary' 'marital=married' 'y=no' 'default=no'12234
+'month=may' 'previous=0' 'default=no'11041
+'marital=single' 'previous=0' 'pdays=-1' 'poutcome=unknown'10209
+'housing=no' 'pdays=-1' 'loan=no' 'y=no' 'default=no'12248
+'marital=married' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'loan=no' 'y=no'17039
+'campaign=1' 'previous=0' 'poutcome=unknown' 'loan=no'11221
+'education=secondary' 'pdays=-1' 'loan=no' 'default=no'15046
+'housing=yes' 'loan=no' 'y=no' 'default=no'18813
+'education=tertiary' 'pdays=-1' 'poutcome=unknown' 'default=no'10455
+'marital=married' 'contact=cellular' 'previous=0' 'pdays=-1' 'poutcome=unknown'12881
+'contact=unknown' 'pdays=-1' 'poutcome=unknown' 'loan=no' 'y=no'10481
+'housing=no' 'marital=married' 'default=no'11688
+'marital=married' 'contact=cellular' 'pdays=-1' 'y=no' 'default=no'11366
+'month=may' 'previous=0' 'poutcome=unknown'11252
+'contact=unknown' 'poutcome=unknown' 'loan=no' 'y=no' 'default=no'10292
+'housing=yes' 'marital=married' 'previous=0' 'pdays=-1' 'y=no' 'default=no'11440
+'marital=married' 'contact=cellular' 'poutcome=unknown' 'y=no'11602
+'marital=married' 'pdays=-1' 'poutcome=unknown' 'loan=no' 'y=no' 'default=no'16781
+'housing=yes' 'pdays=-1' 'poutcome=unknown' 'loan=no' 'default=no'16198
+'housing=no' 'marital=married' 'loan=no'10204
+'housing=no' 'loan=no' 'y=no' 'default=no'13872
+'housing=no' 'contact=cellular' 'previous=0' 'pdays=-1' 'default=no'11659
+'housing=no' 'contact=cellular' 'poutcome=unknown'11920
+'marital=married' 'contact=cellular' 'previous=0' 'default=no'12634
+'contact=unknown' 'previous=0' 'y=no' 'default=no'12157
+'education=secondary' 'previous=0' 'pdays=-1' 'loan=no' 'default=no'15046
+'housing=no' 'y=no'16727
+'contact=unknown' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'loan=no' 'default=no'10729
+'marital=married' 'previous=0' 'poutcome=unknown' 'loan=no'18553
+'housing=yes' 'poutcome=unknown'19990
+'housing=yes' 'marital=married' 'y=no' 'default=no'14080
+'pdays=-1' 'poutcome=unknown'36954
+'education=secondary' 'housing=yes' 'previous=0' 'pdays=-1' 'y=no'10474
+'campaign=1' 'pdays=-1' 'poutcome=unknown' 'loan=no'11221
+'education=tertiary' 'loan=no'11517
+'housing=yes' 'poutcome=unknown' 'default=no'19598
+'housing=yes' 'pdays=-1' 'poutcome=unknown' 'loan=no' 'y=no' 'default=no'15121
+'poutcome=unknown' 'default=no'36201
+'housing=yes' 'previous=0' 'poutcome=unknown' 'loan=no' 'y=no'15375
+'contact=unknown' 'poutcome=unknown'12950
+'contact=unknown' 'pdays=-1' 'poutcome=unknown' 'y=no'12432
+'education=secondary' 'previous=0' 'pdays=-1' 'y=no' 'default=no'16959
+'marital=married' 'contact=cellular' 'y=no'14938
+'housing=no' 'previous=0' 'poutcome=unknown' 'y=no'14866
+'housing=yes' 'previous=0' 'loan=no'16471
+'previous=0' 'pdays=-1' 'loan=no'30833
+'campaign=1' 'loan=no' 'default=no'14540
+'contact=unknown' 'pdays=-1' 'poutcome=unknown' 'loan=no' 'y=no' 'default=no'10292
+'marital=married' 'previous=0' 'poutcome=unknown' 'loan=no' 'default=no'18283
+'housing=yes' 'marital=married' 'y=no'14312
+'marital=married' 'poutcome=unknown' 'default=no'22046
+'contact=unknown' 'pdays=-1' 'y=no' 'default=no'12157
+'education=secondary' 'housing=yes' 'pdays=-1'11178
+'housing=no' 'previous=0' 'poutcome=unknown' 'loan=no' 'default=no'14158
+'marital=married' 'previous=0' 'loan=no' 'default=no'18283
+'marital=married' 'contact=cellular' 'previous=0' 'poutcome=unknown'12881
+'education=secondary' 'marital=married' 'pdays=-1' 'y=no' 'default=no'10282
+'housing=yes' 'marital=married' 'previous=0' 'poutcome=unknown' 'default=no'12088
+'education=tertiary' 'previous=0' 'default=no'10455
+'housing=no' 'previous=0' 'poutcome=unknown' 'y=no' 'default=no'14523
+'contact=cellular' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'loan=no' 'y=no' 'default=no'15398
+'contact=cellular' 'pdays=-1' 'loan=no' 'y=no'15639
+'month=may' 'pdays=-1' 'poutcome=unknown' 'y=no' 'default=no'10428
+'housing=no' 'contact=cellular' 'y=no' 'default=no'11547
+'contact=cellular' 'previous=0' 'poutcome=unknown' 'y=no' 'default=no'18705
+'housing=yes' 'marital=married' 'pdays=-1'12313
+'marital=married' 'contact=cellular' 'previous=0' 'pdays=-1' 'y=no' 'default=no'11366
+'education=secondary' 'marital=married' 'poutcome=unknown' 'default=no'11082
+'month=may' 'pdays=-1' 'y=no'10632
+'marital=married' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'loan=no' 'default=no'18283
+'marital=married' 'pdays=-1' 'loan=no' 'default=no'18283
+'housing=no' 'marital=married' 'previous=0'10156
+'marital=married' 'loan=no' 'y=no'20069
+'education=secondary' 'marital=married' 'loan=no' 'default=no'10897
+'poutcome=unknown' 'loan=no' 'default=no'30359
+'previous=0' 'poutcome=unknown' 'loan=no'30833
+'housing=yes' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'loan=no' 'y=no'15375
+'education=secondary' 'poutcome=unknown' 'y=no'17355
+'housing=yes' 'loan=no' 'default=no'20461
+'contact=unknown' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'loan=no' 'y=no'10481
+'contact=cellular' 'previous=0' 'pdays=-1' 'loan=no' 'default=no'17717
+'housing=yes' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'y=no' 'default=no'18336
+'education=secondary' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'loan=no' 'y=no' 'default=no'13692
+'month=may' 'previous=0' 'pdays=-1' 'y=no' 'default=no'10428
+'housing=no' 'poutcome=unknown' 'loan=no' 'y=no' 'default=no'12250
+'marital=married' 'contact=cellular' 'pdays=-1' 'poutcome=unknown' 'default=no'12634
+'education=tertiary' 'contact=cellular'10039
+'marital=married' 'contact=cellular' 'previous=0' 'y=no' 'default=no'11366
+'education=secondary' 'pdays=-1' 'loan=no'15310
+'month=may' 'previous=0'11252
+'housing=no' 'contact=cellular' 'previous=0' 'poutcome=unknown' 'loan=no'10028
+'housing=no' 'pdays=-1' 'poutcome=unknown'16966
+'housing=yes' 'pdays=-1'19988
+'education=secondary' 'housing=yes' 'loan=no' 'default=no'11208
+'contact=cellular' 'pdays=-1' 'default=no'21286
+'housing=yes' 'pdays=-1' 'poutcome=unknown' 'loan=no' 'y=no'15375
+'marital=married'27214
+'loan=no' 'y=no' 'default=no'32685
+'contact=unknown' 'pdays=-1' 'default=no'12661
+'month=may' 'poutcome=unknown' 'default=no'11041
+'housing=no' 'poutcome=unknown' 'y=no' 'default=no'14525
+'campaign=2' 'loan=no'10555
+'marital=married' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'y=no'20764
+'housing=yes' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'loan=no'16471
+'previous=0' 'poutcome=unknown'36954
+'month=may' 'poutcome=unknown'11252
+'marital=married' 'contact=cellular' 'pdays=-1' 'y=no'11600
+'pdays=-1' 'loan=no' 'y=no' 'default=no'27369
+'housing=no' 'poutcome=unknown' 'default=no'16603
+'education=secondary' 'y=no'20752
+'campaign=1' 'previous=0' 'pdays=-1' 'poutcome=unknown' 'y=no' 'default=no'11763
+'previous=0' 'pdays=-1' 'loan=no' 'default=no'30356
+'housing=yes' 'previous=0' 'pdays=-1' 'loan=no' 'y=no'15375
+'marital=married' 'previous=0' 'pdays=-1' 'loan=no' 'default=no'18283
+'previous=0' 'pdays=-1' 'y=no'33570
+'contact=cellular' 'previous=0' 'y=no' 'default=no'18705
+'education=secondary' 'contact=cellular' 'poutcome=unknown'10783
+'campaign=1' 'poutcome=unknown'13531
+'marital=married' 'contact=cellular' 'pdays=-1' 'loan=no'10555
+'housing=no' 'contact=cellular' 'loan=no'12544
+'contact=unknown' 'loan=no' 'y=no'10528
+'contact=unknown' 'previous=0' 'loan=no' 'y=no'10481
+'education=secondary' 'pdays=-1' 'y=no'17353
+'contact=cellular' 'previous=0' 'pdays=-1' 'loan=no' 'y=no' 'default=no'15398
+'pdays=-1' 'poutcome=unknown' 'default=no'36196
+'education=secondary' 'housing=yes'14038
+'campaign=1' 'contact=cellular' 'default=no'11241
+'campaign=1' 'previous=0' 'pdays=-1' 'poutcome=unknown'13529
+'education=secondary' 'marital=married' 'previous=0' 'default=no'11081
+'marital=married' 'previous=0' 'loan=no' 'y=no' 'default=no'16781
+'campaign=1' 'pdays=-1' 'loan=no'11221
+'education=secondary' 'contact=cellular' 'previous=0' 'pdays=-1' 'default=no'10543
+'housing=yes' 'pdays=-1' 'poutcome=unknown'19988
+'month=may' 'poutcome=unknown' 'y=no'10632
+'housing=no' 'pout
