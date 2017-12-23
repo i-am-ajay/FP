@@ -11,4 +11,5 @@ public class SenderEmailConf {
     
     // field to store users registered email id.
     public static String email;
+    public static String passwordEmail;
 }

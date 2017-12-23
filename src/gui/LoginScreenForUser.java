@@ -1,5 +1,6 @@
 package gui;
 
+import AddEntriesToDB.ChangePassword;
 import AddEntriesToDB.authenticate.UserAuth;
 import gui.conf.*;
 import gui.conf.message.InfoMessage;
@@ -8,6 +9,7 @@ import javafx.geometry.Orientation;
 import javafx.geometry.Pos;
 import javafx.scene.Node;
 import javafx.scene.control.Button;
+import javafx.scene.control.Hyperlink;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
@@ -15,6 +17,8 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.TilePane;
 import javafx.scene.layout.VBox;
+import retrieval.ForgotPassword;
+import retrieval.GeneratePassword;
 
 /**
  * Created by ajay on 4/24/2016.
@@ -83,9 +87,30 @@ public class LoginScreenForUser {
         buttonsTilePane.getChildren().addAll(login,back);
         buttonsTilePane.setHgap(20);
         buttonsTilePane.setAlignment(Pos.CENTER);
+        
+        // Forgotten Password Link
+        Hyperlink link = new Hyperlink();
+        link.setText("Forgot Password?");
+        link.setOnAction(
+        		e ->{
+        		String user = nameField.getText();
+        		if(user.isEmpty()){
+        			new InfoMessage().messageBox("Please Enter Username.");
+        			nameField.requestFocus();
+        		}
+        		else{
+	        		ChangePassword cp = new ChangePassword();
+	        		cp.changePassword(user);
+        		}
+        	}
+        );
+        VBox linkBox = new VBox();
+        linkBox.getChildren().addAll(link);
+        linkBox.setAlignment(Pos.CENTER_LEFT);
+        linkBox.setPadding(new Insets(10));
 
         /*** Layout of username,password,button ***/
-        box = new VBox(30,loginPane,buttonsTilePane);
+        box = new VBox(30,loginPane,buttonsTilePane,linkBox);
         box.setPadding(new Insets(10));
         box.setAlignment(Pos.CENTER);
         BorderPane.setAlignment(box, Pos.CENTER);

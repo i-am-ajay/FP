@@ -14,12 +14,14 @@ import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Node;
 import javafx.scene.control.Button;
+import javafx.scene.control.Hyperlink;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.Tooltip;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
 import javafx.scene.text.Font;
 
 import java.net.URL;
@@ -52,7 +54,7 @@ public class UserScreen {
         HBox fieldBox = new HBox(10,keyLabel,keyField);
         fieldBox.setAlignment(Pos.CENTER);
         fieldBox.setPadding(new Insets(10));
-
+        
         Button getRules = ProjectControls.createButton("Get Rules");
         // A 6 char OTP will be generated, and sent on user registered email. Control will move to OTP screen.
         getRules.setOnAction(e->{
@@ -119,9 +121,12 @@ public class UserScreen {
         back.setMaxWidth(150);
         back.setPrefWidth(150);
         //back.setWrapText(true);
+       
+        
         HBox buttonBox = new HBox(10,requestKey,getRules,back);
         buttonBox.setAlignment(Pos.CENTER);
         buttonBox.setPadding(new Insets(5));
+        
         pane.setCenter(fieldBox);
         pane.setBottom(buttonBox);
         BorderPane.setAlignment(fieldBox, Pos.CENTER);

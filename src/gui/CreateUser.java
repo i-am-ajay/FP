@@ -5,6 +5,7 @@ import globals.StoreNewUserInfo;
 import gui.conf.*;
 import gui.conf.message.AdminConfirmationBox;
 import gui.conf.message.ConfirmationBox;
+import gui.conf.message.InfoMessage;
 import gui.conf.message.UserCreationConfirmationBox;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -43,7 +44,7 @@ public class CreateUser {
         Label repeatPassword = ProjectLables.labelForFields("Repeat Pass");
         rePasswordField = new PasswordField();
         rePasswordField.setPromptText("Re-Enter password");
-        password.setLabelFor(rePasswordField);
+        repeatPassword.setLabelFor(rePasswordField);
 
         Label email = ProjectLables.labelForFields("Email");
         emailField = new TextField();
@@ -78,6 +79,10 @@ public class CreateUser {
                 }
                 else if (emailField.getText().equalsIgnoreCase(null) || emailField.getText().equalsIgnoreCase("")){
                     emailField.requestFocus();
+                }
+                else if(passwordField.getText() != rePasswordField.getText()){
+                	new InfoMessage().messageBoxWithoutReset("Password Validation Failed.");
+                	passwordField.requestFocus();
                 }
                 else {
                     System.out.println("Everything fine.");

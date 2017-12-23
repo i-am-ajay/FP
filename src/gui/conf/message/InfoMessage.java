@@ -20,6 +20,19 @@ public class InfoMessage extends MessageBox {
         box.setPrefWidth(400);
         box.setPadding(new Insets(10));
     }
+    
+    public void messageBoxWithoutReset(String msg){
+    	super.messageBox(msg);
+    	Button button = new Button("OK");
+    	button.setOnAction(
+    		e -> {
+    			stage.close();
+    		}
+    	);
+    	box.getChildren().add(button);
+    	box.setPrefWidth(400);
+    	box.setPadding(new Insets(10));
+    }
     public void setScreen(){
 
     }
