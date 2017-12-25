@@ -20,10 +20,10 @@ public class DatabaseConnection {
     }
     public void createDatabase(){
         try{
-            Connection con=createConnection();
-            String query=getCreationQuery();
+            Connection con = createConnection();
+            String query = getCreationQuery();
             System.out.println(query);
-            PreparedStatement prepare=con.prepareStatement(query);
+            PreparedStatement prepare = con.prepareStatement(query);
             prepare.executeUpdate();
 
             System.out.println(query.length());

@@ -18,9 +18,10 @@ public class CreateOTP {
 		return CreateOTP.otpString;
 	}
 	public static CreateOTP getInstance(){
-		if(otp == null){
+		otp = new CreateOTP();
+		/*if(otp == null){
 			otp = new CreateOTP();
-		}
+		}*/
 		return otp;
 	}
 }
