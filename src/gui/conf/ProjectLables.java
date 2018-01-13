@@ -18,6 +18,7 @@ import javafx.scene.text.FontWeight;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.net.URL;
 
 /**
  * Created by ajay on 4/19/2016.
@@ -32,8 +33,10 @@ public class ProjectLables {
      * @return VBox
      */
     public static VBox getLabel() {
+    	ClassLoader loader = Thread.currentThread().getContextClassLoader();
+    	URL url = loader.getResource("financial.jpg");
         String labelName = "Datamining For Financial Datasets";
-        ImageView logo = new ImageView(new Image("file:///G:\\projects\\meenakshi ma'am\\files\\images\\financial.jpg"));
+        ImageView logo = new ImageView(new Image(url.toString()));
         logo.setFitHeight(100);
         logo.setFitWidth(150);
         Label label = new Label(labelName);

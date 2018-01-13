@@ -35,7 +35,10 @@ public class AdminScreen {
     public static StringBinding binding;
     public static String subLevelTitle;
     static Button mineRules;
+    static Button setParameters;
     static Button sensitiveRules;
+    static Button createUser;
+    static Button clearTables;
     static Button back;
     static Region region;
     static Pane previousScreen;
@@ -112,14 +115,22 @@ public class AdminScreen {
             }
         });
         sensitiveRules.setMaxSize(Double.MAX_VALUE, Double.MAX_VALUE);
+        
+        setParameters = ProjectControls.createButton("Parameter");
+        setParameters.setOnAction(
+        		e ->{
+        			ThreshholdValueScreen.threasholdTable();
+        		}
+        );
+        setParameters.setMaxSize(Double.MAX_VALUE, Double.MAX_VALUE);
 
-        Button createUser = ProjectControls.createButton("Create User");
+        createUser = ProjectControls.createButton("Create User");
         createUser.setOnAction( e -> {
             CreateUser.createUserOrAdmin();
         });
         createUser.setMaxSize(Double.MAX_VALUE, Double.MAX_VALUE);
         //region = new Region();
-        Button clearTables = ProjectControls.createButton("Clear Database");
+        clearTables = ProjectControls.createButton("Clear Database");
         clearTables.setMaxSize(Double.MAX_VALUE,Double.MAX_VALUE);
         clearTables.setOnAction(e->{
             try {
@@ -137,10 +148,11 @@ public class AdminScreen {
         });
 
         TilePane pane = new TilePane();
-        pane.getChildren().addAll(mineRules, sensitiveRules, createUser,clearTables,back);
+        pane.getChildren().addAll(mineRules, sensitiveRules,setParameters, createUser,clearTables,back);
         pane.setPrefColumns(1);
+        pane.setPrefRows(6);
         pane.setHgap(5);
-        pane.setVgap(10);
+        pane.setVgap(3);
         pane.setOrientation(Orientation.VERTICAL);
         pane.setMaxWidth(150);
         pane.setPadding(new Insets(10));
