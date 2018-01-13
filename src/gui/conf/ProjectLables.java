@@ -70,7 +70,7 @@ public class ProjectLables {
         label = new Label(name);
         label.setFont(ProjectFonts.fieldsLabelFont());
         label.setTextFill(ProjectFontColors.fieldLabelColors());
-        System.out.println(label.getWidth());
+        //System.out.println(label.getWidth());
        /* DoubleBinding binding = new DoubleBinding(){
             {
                 super.bind(label.widthProperty());
@@ -87,7 +87,14 @@ public class ProjectLables {
         };*/
         return label;
     }
-
+    
+    public static Label labelForTitles(String name) {
+        label = new Label(name);
+        label.setFont(ProjectFonts.subLabelFont());
+        label.setTextFill(ProjectFontColors.mainLabelFontColor());
+        //System.out.println(label.getWidth());
+        return label;
+    }
     public static Label createLabel(String labelContent) {
         Label label = new Label(labelContent);
         label.setFont(ProjectFonts.subLabelFont());
