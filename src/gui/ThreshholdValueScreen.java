@@ -1,5 +1,6 @@
 package gui;
 
+import java.net.URISyntaxException;
 import java.net.URL;
 
 import gui.conf.ProjectFontColors;
@@ -11,7 +12,7 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 
 public class ThreshholdValueScreen {
-	public static void threasholdTable() {
+	public static void threasholdTable() throws URISyntaxException {
 		ClassLoader loader = Thread.currentThread().getContextClassLoader();
 		URL resource = loader.getResource("b3.jpg");
 		
@@ -21,7 +22,7 @@ public class ThreshholdValueScreen {
 		
 		BorderPane pane = new BorderPane();
 		pane.setTop(label);
-		pane.setStyle("-fx-background-color: lightblue; -fx-background-image: URL('"+resource+"')");
+		pane.setStyle("-fx-background-color: lightblue; -fx-background-image: URL("+resource.toURI()+")");
 		
 		Scene scene = new Scene(pane,500,500);
 		

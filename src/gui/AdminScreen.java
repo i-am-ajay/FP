@@ -27,6 +27,7 @@ import javafx.scene.text.FontPosture;
 import javafx.scene.text.FontWeight;
 import javafx.util.Duration;
 
+import java.net.URISyntaxException;
 import java.sql.SQLException;
 import java.util.concurrent.Executors;
 
@@ -119,7 +120,12 @@ public class AdminScreen {
         setParameters = ProjectControls.createButton("Parameter");
         setParameters.setOnAction(
         		e ->{
-        			ThreshholdValueScreen.threasholdTable();
+        			try {
+						ThreshholdValueScreen.threasholdTable();
+					} catch (URISyntaxException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					}
         		}
         );
         setParameters.setMaxSize(Double.MAX_VALUE, Double.MAX_VALUE);
