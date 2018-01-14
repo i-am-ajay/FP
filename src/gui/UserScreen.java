@@ -98,17 +98,23 @@ public class UserScreen {
         
         requestKey.setOnAction(
                 e -> {
-                    boolean flag = getKeyUsingMasterKey(userName,keyField.getText());
-                    if(flag){
-                        new InfoMessage().messageBox("Keys has been sent to registered email.");
-                        keyField.clear();
-                        keyField.requestFocus();
-                    }
-                    else{
-                        new InfoMessage().messageBox("Master key is not correct.");
-                        keyField.clear();
-                        keyField.requestFocus();
-                    }
+                	if(keyField.getText() == null || keyField.getText().equals("")) {
+                		new InfoMessage().messageBox("Enter Your Master key.");
+                		keyField.requestFocus();
+                	}
+                	else {
+	                    boolean flag = getKeyUsingMasterKey(userName,keyField.getText());
+	                    if(flag){
+	                        new InfoMessage().messageBox("Keys has been sent to registered email.");
+	                        keyField.clear();
+	                        keyField.requestFocus();
+	                    }
+	                    else{
+	                        new InfoMessage().messageBox("Master key is not correct.");
+	                        keyField.clear();
+	                        keyField.requestFocus();
+	                    }
+                	}
                 }
 
         );

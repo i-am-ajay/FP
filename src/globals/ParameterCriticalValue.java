@@ -3,12 +3,16 @@ package globals;
 import java.util.HashMap;
 import java.util.Map;
 
+import AddEntriesToDB.ParametersToDB;
+
 public class ParameterCriticalValue {
 	static Map<String,Double> criticalValueMap;
 	static{
 		if(criticalValueMap == null){
-			criticalValueMap = new HashMap<>();
-			setCriticalValueMap();
+			//criticalValueMap = new HashMap<>();
+			//setCriticalValueMap();
+			
+			criticalValueMap = ParametersToDB.getCriticalValueMap();
 		}
 		
 	}

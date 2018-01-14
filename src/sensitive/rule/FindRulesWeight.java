@@ -5,6 +5,8 @@ import AddEntriesToDB.CryptRules;
 import AddEntriesToDB.ReadFile;
 import AddEntriesToDB.RulesColumnInfo;
 import globals.ParameterCriticalValue;
+import gui.DataTable;
+import gui.RuleClass;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -91,6 +93,7 @@ public class FindRulesWeight {
                 double weight = ruleMap.get(rule);
                 if(weight > 0.7){
                     // method will add rule info in table.
+                	DataTable.insertToList(new RuleClass(rule));
                     RulesColumnInfo.ruleToColMapping(count,rule);
                     byte [] ar=cryptRule.encrypt(rule);
                     ruleToDB.insertToDB(count,ar);
@@ -104,7 +107,7 @@ public class FindRulesWeight {
     public static void main(String [] args){
         FindRulesWeight weight = new FindRulesWeight();
         weight.readRules();
-        printFrequencyMaps(weight.readFile);
+        //printFrequencyMaps(weight.readFile);
     }
     
     public static void printFrequencyMaps(ReadFile fileReader){

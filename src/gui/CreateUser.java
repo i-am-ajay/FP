@@ -80,7 +80,7 @@ public class CreateUser {
                 else if (emailField.getText().equalsIgnoreCase(null) || emailField.getText().equalsIgnoreCase("")){
                     emailField.requestFocus();
                 }
-                else if(passwordField.getText() != rePasswordField.getText()){
+                else if(!passwordField.getText().equalsIgnoreCase(rePasswordField.getText())){
                 	new InfoMessage().messageBoxWithoutReset("Password Validation Failed.");
                 	passwordField.requestFocus();
                 }
@@ -103,11 +103,16 @@ public class CreateUser {
                     System.out.println("Blank");
                     usernameField.requestFocus();
                 }
-                else if (passwordField.getText().equalsIgnoreCase(null) || usernameField.getText().equalsIgnoreCase("")) {
+                else if (passwordField.getText().equalsIgnoreCase(null) || passwordField.getText().equalsIgnoreCase("")) {
                     passwordField.requestFocus();
                 }
+     
                 else if (emailField.getText().equalsIgnoreCase(null) || emailField.getText().equalsIgnoreCase("")){
                     emailField.requestFocus();
+                }
+                else if(!passwordField.getText().equalsIgnoreCase(rePasswordField.getText())){
+                	new InfoMessage().messageBoxWithoutReset("Password Validation Failed.");
+                	passwordField.requestFocus();
                 }
                 else {
                     userInfo.setUserName(usernameField.getText());

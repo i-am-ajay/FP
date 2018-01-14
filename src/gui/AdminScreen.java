@@ -4,6 +4,7 @@ import AddEntriesToDB.cleaners.ClearTables;
 import gui.conf.ProjectControls;
 import gui.conf.ProjectLables;
 import gui.conf.ProjectMainLayout;
+import gui.conf.message.DeletionConfirmation;
 import gui.conf.message.InfoMessage;
 import javafx.animation.Animation;
 import javafx.animation.FadeTransition;
@@ -125,6 +126,9 @@ public class AdminScreen {
 					} catch (URISyntaxException e1) {
 						// TODO Auto-generated catch block
 						e1.printStackTrace();
+					} catch (SQLException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
 					}
         		}
         );
@@ -139,12 +143,13 @@ public class AdminScreen {
         clearTables = ProjectControls.createButton("Clear Database");
         clearTables.setMaxSize(Double.MAX_VALUE,Double.MAX_VALUE);
         clearTables.setOnAction(e->{
-            try {
+        	new DeletionConfirmation().messageBox(null);
+            /*try {
                 new ClearTables().removeUserInfoFromTables();
                 new InfoMessage().messageBox("Tables Cleared.");
             } catch (SQLException e1) {
                 e1.printStackTrace();
-            }
+            }*/
         });
         back = ProjectControls.createButton("Back");
         back.setMaxSize(Double.MAX_VALUE, Double.MAX_VALUE);
